@@ -40,7 +40,7 @@ void main()
         ord1 = num2;
         //Agora, verifica se numero 1 é maior que numero 3
         if (num1>num3){
-            //caso positivo, o segundo numero será o numero 2, e o terceiro será o 3
+            //caso positivo, o segundo numero será o numero 1, e o terceiro será o 3
             ord2 = num1;
             ord3 = num3;
         }
@@ -61,7 +61,7 @@ void main()
             ord3 = num1;
         }
         else{
-            //senão, o numero 2 é maior, será o segundo na ordem
+            //senão, o numero 1 é maior, será o segundo na ordem
             ord2 = num1;
             ord3 = num2;
         }
