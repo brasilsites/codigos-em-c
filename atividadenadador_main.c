@@ -36,3 +36,4 @@ void main()
         printf("Idade nao e compativel com nenhuma categoria ");
     }
 }
+ 
