@@ -21,7 +21,7 @@ void main()
     a-c < b < a+c
     a-b < c < a+b
     */
-    if (((lado2 - lado3)<lado1) && (lado1<(lado2 + lado3)) || ((lado1 - lado3)<lado2) && (lado2<(lado1 + lado3)) || ((lado1 - lado2)<lado3) && (lado3<(lado1 + lado2))){
+    if (((lado2 - lado3)<lado1) && (lado1<(lado2 + lado3)) && ((lado1 - lado3)<lado2) && (lado2<(lado1 + lado3)) && ((lado1 - lado2)<lado3) && (lado3<(lado1 + lado2))){
         perimetro = lado1 + lado2 + lado3;
         printf("O Perimetro dos 3 lados e de %.2f ",perimetro);
     }
