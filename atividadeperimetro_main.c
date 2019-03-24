@@ -4,7 +4,6 @@
 void main()
 {
     float lado1,lado2,lado3,perimetro;
-    int triangulo=0;
     //calculo do perimetro
     //Perimetro = Lado + Lado + Lado, ou se os 3 lados forem iguais: Perimetro = 3 x Lado
     printf("calculo do perimetro \n");
