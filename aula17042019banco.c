@@ -11,7 +11,7 @@ void main() {
 
 	for (j=0;j<3;j++){
 		/* com o setlocale, o valor deve ser inserido com virgula */
-		printf("\nDigite o %i valor (000,00): ",j);
+		printf("\nDigite o %i valor (formato xxx,xx): ",j);
 		scanf("%f",&valor[j]);
 	}
 
