@@ -10,7 +10,8 @@ void main() {
 	int i,j;
 
 	for (j=0;j<3;j++){
-		printf("\nDigite o valor: ");
+		/* com o setlocale, o valor deve ser inserido com virgula */
+		printf("\nDigite o %i valor (000,00): ",j);
 		scanf("%f",&valor[j]);
 	}
 
