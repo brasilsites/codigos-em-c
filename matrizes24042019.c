@@ -40,7 +40,7 @@ int main() {
 	*/
 	//char nomegets[]="Nome gets";
 	//printf("Teste comando gets e puts, informe um nome: ");
-	//gets e puts so serve para strings, não divide caracter
+	//gets e puts so serve para strings, nÃ£o divide caracter
 	//gets(nomegets);
 	//puts(nomegets);
 }
