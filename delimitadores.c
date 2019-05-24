@@ -15,5 +15,5 @@ void main() {
     printf("Instituicao: %s\n", instituicao);
     
 	ano = strtok(NULL, ";");
-    printf("Instituicao: %s\n", ano);
+    printf("Periodo: %s\n", ano);
 }
