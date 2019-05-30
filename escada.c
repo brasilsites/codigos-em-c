@@ -8,7 +8,7 @@ void main() {
 
 	int numeros[qtdnumeros];
 	
-	printf("Entre com dez números para preencher o array, e pressione enter após digitar cada um:\n");
+	printf("Entre com dez nÃºmeros para preencher o array, e pressione enter apÃ³s digitar cada um:\n");
  	for (i = 0; i < qtdnumeros; i++) {
  		scanf("%i", &numeros[i]);
  	}
