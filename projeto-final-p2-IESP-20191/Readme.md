@@ -1,5 +1,5 @@
 <h2>Instruções para o projeto:</h2>
-<h4>O projeto foi construido para manipular arquivos em binário salvado em .txt e tem as seguintes caracteristicas:</h4>
+<h4>O projeto foi construido para manipular arquivos em binário salvando em .txt e tem as seguintes caracteristicas:</h4>
 <p>
 <strong>1 - Login coordenador:</strong>
   <br />-> O sistema automaticamente cria um coordenador como login: admin - senha: 1234
