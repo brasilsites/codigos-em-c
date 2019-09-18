@@ -1,0 +1,47 @@
+def main():
+    '''
+   registros=[]
+   for i in range(5):
+       registros.append(input("Informe o "+str(i+1)+" nome: "))
+
+   print (registros)
+   nome = input("Adicionar um novo registro: ")
+   registros.append(nome)
+
+   nome=input("Adicionar na segunda posicao: ")
+   registros.insert(2,nome)
+
+   print (registros)
+
+
+    registros = []
+    for i in range(5):
+       registros.append(input("Informe o "+str(i+1)+" nome: "))
+
+    qualnome=input("Informe o nome para alterar:")
+    nome=registros.index(qualnome)
+    sobrenome=input("Informe seu sobrenome:")
+
+    registros[nome]=registros[nome]+" "+sobrenome
+
+    print (registros)
+    '''
+    #registros.remove()
+    #registros.clear()
+    #registros.sort()
+    #registros.sort(reverse=True) - decrescente
+
+    cores=[]
+    qtdcores=int(input("Informe a quantidade de cores: "))
+    for i in range (qtdcores):
+        cores.append(input("Informe a "+str(i+1)+"a cor: "))
+
+    vermelho=cores.index("vermelho")
+
+    if (vermelho):
+        confirma=input("Deseja remover a cor vermelha? (s/n)")
+    if (confirma=="s"):
+        cores.remove("vermelho")
+
+    print(cores)
+main()
