@@ -80,16 +80,15 @@ def main():
     ou seja, para o segundo valor não pode ser aceito o valor zero e imprimir o resultado da divisão do primeiro valor
     lido pelo segundo valor lido (utilizar a estrutura for)
     9) Acrescentar uma mensagem de VALOR INVALIDO no exercício 7 caso o segundo valor informado seja ZERO
+    Obs.: Corrigido pelo amigo Ramon 
     '''
     if questao == 7 or questao == 9:
         valor1 = int(input("Informe o primeiro valor: "))
         valor2 = int(input("Informe o segundo valor: "))
         for i in range(1):
-            if valor1==0:
-                valor1 = int(input("Valor nao pode ser ZERO, informe um primeiro novo valor: "))
             if valor2==0:
                 valor2 = int(input("VALOR INVALIDO Valor nao pode ser ZERO, informe um segundo novo valor: "))
-        if valor1>0 and valor2>0:
+        if valor2>0:
             print("Os valores inseridos foram: ",valor1," e ",valor2)
         else:
             print("Voce inseriu o valor ZERO e nao sera impresso!")
@@ -173,9 +172,40 @@ def main():
         print("Total no estoque:",somaestoque)
         print("Total R$:", somatotal)
     '''
-     16) Escreva um algoritmo para ler 10 numeros e armazenar em um array. Após isto, o algoritmo deve ordenar os números
+     16) Escreva um algoritmo que imprima a tabuada (de 1 a 10) para os números de 1 a 10
+     '''
+    if questao == 16:
+        for j in range (1,11):
+            print("== Tabuada do " + str(j) + " ==")
+            for i in range(1,11):
+                resultado=i+j
+                print (str(j)+"+"+str(i)+"=",resultado)
+    '''
+     17) Faça um algoritmo para ler 10 números e armazenar em um array, após isto, o algoritmo deve ordenar os números
      no vetor em ordem crescente. Escrever o vetor ordenado
      '''
-    #if questao == 16:
+    if questao == 17:
+        lista10 = []
+        for i in range(1, 11):
+            numero = int(input("Informe o " + str(i) + "º numero: "))
+            lista10.append(numero)
+        lista10.sort()
+        print("Lista ordenada: ", lista10)
+    '''
+     18) Faça um algoritmo para ler um vetor de 20 números, após isto, deverá ser lido mais um número qualquer e verificar
+     se esse número existe no array ou não. Se existir, o algoritmo deve gerar um novo vetor sem esse número.
+     (considere que não haverão numeros repetidos no array)
+     '''
+    if questao == 18:
+        sequencia20=[]
+        for i in range(1,21):
+            numero = int(input("Informe o " + str(i) + "º numero: "))
+            sequencia20.append(numero)
+        vinteum = int(input("Informe um novo numero: "))
+        achounumero=sequencia20.index(vinteum)
 
+        if achounumero:
+            print("Numero localizado, removendo!")
+            sequencia20.remove(vinteum)
+        print(sequencia20)
 main()
